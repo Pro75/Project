@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/background_dark"
+    app:cardElevation="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+      <ImageView
+          android:layout_width="114dp"
+          android:layout_height="129dp"
+
+
+          android:src="@drawable/ic_person_outline_black_24dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/initial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|start"
+            android:text="SAH"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|start"
+            android:text="Dr.Syed Akther Hossain"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|start"
+            android:text="Head and Professor"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|start"
+            android:text="aktharhossain@daffidilvarsity.edu.bd"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical|start"
+            android:text="+8801817382645"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
